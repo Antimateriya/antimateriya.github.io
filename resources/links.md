@@ -1,27 +1,31 @@
-# Додаткові ресурси та література
+# Додаткові ресурси
 
-У цьому розділі зібрані найкращі відеоматеріали англійською мовою. Вони є обов'язковими для тих, хто планує пов'язати своє майбутнє з IT-інженерією чи кібербезпекою.
+У цьому розділі зібрані найкраща література та відеоматеріали. Це не шкільні підручники, а справжня індустріальна база, з якою працюють студенти профільних ВНЗ та інженери.
 
-## Комп'ютерні мережі (Основи)
-1. **CrashCourse: Computer Networks**
-   * *Опис:* Ідеальне базове введення в те, як працюють мережі, від творців найкращих освітніх відео на YouTube.
-   * *Посилання:* [https://www.youtube.com/watch?v=3QhU9jd03a0](https://www.youtube.com/watch?v=3QhU9jd03a0)
-2. **NetworkChuck: The OSI Model Demystified**
-   * *Опис:* Максимально практичне і динамічне пояснення моделі OSI. Автор пояснює концепції на прикладі замовлення кави.
-   * *Посилання:* [https://www.youtube.com/watch?v=vv4y_uOneC0](https://www.youtube.com/watch?v=vv4y_uOneC0)
+## 📺 Відеоматеріали (YouTube)
+1. **[CrashCourse: Computer Networks](https://www.youtube.com/watch?v=3QhU9jd03a0)** — Ідеальне базове введення в мережі.
+2. **[NetworkChuck: The OSI Model Demystified](https://www.youtube.com/watch?v=vv4y_uOneC0)** — Пояснення моделі OSI на прикладі замовлення кави.
+3. **[Computerphile: Asymmetric Encryption](https://www.youtube.com/watch?v=AQDCe585Lnc)** — Легендарний канал для гіків. Професор з маркером і дошкою пояснює математику RSA-ключів.
+4. **[Tom Scott: Hashing Algorithms and Security](https://www.youtube.com/watch?v=b4b8ktEV4Bg)** — Розбір того, як зберігаються паролі і чому стаються витоки даних.
 
-## Криптографія
-3. **Computerphile: Asymmetric Encryption (Simply explained)**
-   * *Опис:* Легендарний канал для комп'ютерних гіків (Computerphile). Професор наочно з маркером і дошкою пояснює математику відкритих та закритих ключів.
-   * *Посилання:* [https://www.youtube.com/watch?v=AQDCe585Lnc](https://www.youtube.com/watch?v=AQDCe585Lnc)
-4. **Tom Scott: Hashing Algorithms and Security**
-   * *Опис:* Розбір того, як зберігаються паролі і чому навіть великі корпорації іноді допускають катастрофічні витоки баз даних.
-   * *Посилання:* [https://www.youtube.com/watch?v=b4b8ktEV4Bg](https://www.youtube.com/watch?v=b4b8ktEV4Bg)
+---
 
-## Сучасна кібербезпека
-5. **IBM Technology: What is Zero Trust?**
-   * *Опис:* Коротке і суворо професійне пояснення архітектури "Нульової довіри" від інженерів IBM. Це те, що впроваджують корпорації просто зараз.
-   * *Посилання:* [https://www.youtube.com/watch?v=wX-y0hRj3c0](https://www.youtube.com/watch?v=wX-y0hRj3c0)
-6. **NetworkChuck: You need to learn Wireshark right now**
-   * *Опис:* Туторіал з використання Wireshark для перехоплення та аналізу мережевих пакетів. Ідеально підходить для підготовки до Лабораторної роботи №2.
-   * *Посилання:* [https://www.youtube.com/watch?v=OU-A2EIqcPc](https://www.youtube.com/watch?v=OU-A2EIqcPc)
+## 📚 Рекомендована література (Поглиблений рівень)
+
+### Фундамент комп'ютерних мереж
+1. **Andrew S. Tanenbaum — "Computer Networks"** (Комп'ютерні мережі). Абсолютна класика. Якщо ви хочете знати, як працює інтернет на рівні фізики і математики — вам сюди.
+2. **James F. Kurose, Keith W. Ross — "Computer Networking: A Top-Down Approach"**. Найкращий сучасний підручник. Пояснює мережі "зверху вниз" — від браузера до кабелю, що набагато легше для розуміння новачкам.
+3. **Cisco Networking Academy — "Introduction to Networks" (CCNA v7)**. Офіційні матеріали від світового лідера у виробництві мережевого обладнання. Суцільна практика.
+
+### Криптографія та кібербезпека
+4. **Bruce Schneier — "Applied Cryptography"**. Біблія криптографії. Для тих, хто хоче розібратися в алгоритмах шифрування на рівні коду.
+5. **Kevin Mitnick — "The Art of Deception"** (Мистецтво обману). Книга від найвідомішого хакера 90-х. Показує, що найслабша ланка в будь-якій системі безпеки — це людина (соціальна інженерія).
+6. **Ross Anderson — "Security Engineering"**. Фундаментальна праця про те, як будувати системи, що витримують атаки.
+7. **Dafydd Stuttard, Marcus Pinto — "The Web Application Hacker's Handbook"**. Посібник з пошуку та експлуатації вразливостей безпосередньо у веб-додатках (HTTP, сесії, бази даних).
+
+### Офіційні стандарти та документація (Advanced)
+8. **NIST Special Publication 800-207 (Zero Trust Architecture)**. Офіційний стандарт уряду США щодо побудови мереж із нульовою довірою. Сухе, але обов'язкове чтиво для архітекторів безпеки.
+9. **RFC 793 (Transmission Control Protocol)**. Першоджерело. Оригінальний інженерний документ, що описує стандарт TCP. Читати для розуміння того, як пишуться технічні стандарти (IETF).
+10. **OWASP Top 10**. Регулярно оновлюваний звіт про 10 найкритичніших загроз безпеці веб-додатків у світі. Обов'язкова база для будь-якого розробника.
+
+---
